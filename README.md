@@ -7,3 +7,5 @@ The linear regression file used the sklearn library and a dataset of Californian
 The logistic regression file used the Sklearn library and a standard cancer classification dataset. As in linear regression, at first the model was with a standard parameter, namely C = 1.0, and subsequently the standard value was replaced by others.
 # 4 - LinearSVC
 LinearSVC model that classifies the make blobs dataset. The model was trained and the results were visualized with a decision boundary.
+# 5 - Tree
+Tree model, which classifies a dataset with cancer. The model at standard depth shows a result of 1.0 on the train and 0.9 on the test. Most likely, the model was overfitting; an attempt to correct this by limiting the tree depth did not lead to anything.
